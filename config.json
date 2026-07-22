@@ -1,0 +1,30 @@
+{
+  "feature_order": [
+    "est_diameter_min",
+    "est_diameter_max",
+    "relative_velocity",
+    "miss_distance",
+    "absolute_magnitude",
+    "Avg_diameter",
+    "Diameter_range",
+    "Velocity_distance_ratio",
+    "log_velocity",
+    "log_miss_distance"
+  ],
+  "best_threshold": 0.7499999999999997,
+  "test_metrics": {
+    "accuracy": 0.8305075415611582,
+    "precision": 0.3464419475655431,
+    "recall": 0.8375778155065082,
+    "f1": 0.490147375393277,
+    "roc_auc": 0.913577314834131
+  },
+  "best_config": {
+    "units_1": 64,
+    "units_2": 32,
+    "units_3": 16,
+    "dropout_rate": 0.2,
+    "lr": 0.001,
+    "l2": 0.001
+  }
+}
